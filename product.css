@@ -1,0 +1,307 @@
+#header-img {
+    width: 140px;
+    height: auto;
+    margin-left: 60px;
+    float: left;
+  }
+  
+  #nav-bar {
+    margin-top: 0px;
+    padding: 0;
+    height: 100px;
+  }
+  header {
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+  }
+  
+   .nav-link {
+    padding: 15px 22px;
+    border-radius:3px;
+    margin-top: 40px;
+    color:#4c4c4c;
+    font-family: Segoe UI;
+    font-weight:500;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  #links{
+    width:100vw; 
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-top:-10px;
+    position:relative;
+    top:-100px;
+    
+  }
+  
+  .nav-link:hover {
+    background-color: #dddddd;
+  }
+   .icon{
+    display:none;
+  }
+   .nav-link.active{
+    background-color: #70a050;  
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Montserrat Alternates Medium;
+    font-size: 28px;
+    padding-top: 120px;
+    color: #4c4c4c;
+  }
+  #form{
+    display:flex;
+    justify-content:center;
+    
+  }
+  #email {
+    font-family: Segoe UI;
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+  
+  }
+  
+  #submit {
+    width: 100px;
+    height: 32px;
+    background-color: #70a050;
+    font-family: Segoe UI;
+    color: white;
+  }
+  
+  #submit:hover {
+    background-color: black;
+  }
+  #feature{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:-70px;
+  }
+  
+  #fast{
+    margin-left:120px;
+  }
+  #qual{
+    margin-left:60px;
+    
+  }
+  .title,
+  .description {
+    font-family: Segoe UI;
+    color: #4c4c4c;
+   margin-left:80px;
+  }
+  
+  .description{
+    line-height: 0px;
+  }
+  
+  .title {
+    margin-top: 70px;
+    
+  }
+  
+  #fast-logo,
+  #eco-img,
+  #QA {
+    width: 80px;
+    margin-top: -70px;
+  
+  }
+  
+  #fast-logo {
+    width: 60px;
+    padding-bottom: 10px;
+  }
+  #video-box{
+  display:flex;
+  justify-content:center;
+  }
+  #video {
+    max-width: 100%;
+    margin-top: 60px ;
+  }
+  
+  #container {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60em;
+    margin: 60px 0px 0px 200px;
+  }
+  
+  .box-1 {
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+  }
+  
+  .box-2 {
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+  }
+  
+  .box-3 {
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+  }
+  
+  
+  
+  #feature {
+    padding-top: 70px;
+  }
+  
+  #tissue,
+  #smoothie,
+  #fruits {
+    font-family: Segoe UI;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .scale {
+    height: 150px;
+    margin-top: 2px;
+  }
+  
+  .box-btn {
+    font-family: Segoe UI;
+    width: 140px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+  }
+  
+  .box-btn:hover {
+    background-color: black;
+  }
+  
+  .strip {
+    background-color: #ececec;
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+  }
+  
+  footer {
+    background-color: #ececec;
+    height: 80px;
+    margin: 60px 210px 0px 240px;
+    text-align: right;
+  }
+  
+  .footer-nav {
+    padding: 20px 10px 8px;
+    position:relative;
+    top:15px;
+    color: black;
+    font-family: Segoe  UI;
+    text-decoration: none;
+  }
+  
+  .footer-nav:hover {
+    color: green;
+  }
+  
+  #copyright {
+    padding-right: 10px;
+    font-size: 12px;
+   margin-top:25px; 
+  }
+  
+   
+  @media screen and (max-width:650px)
+  {
+   
+   #header-img {
+    width: 70px;
+     margin-left:20px;
+    }
+    header{
+      height:60px;
+    }
+    .nav-link {
+    font-size:12px;
+    margin-right:1px;
+   
+    }  
+    #nav-bar{
+    height:100px;
+    background-color:white;
+    }
+    #links{
+    top:-40px;
+    justify-content:center;  
+     } 
+   
+    h1{
+      font-size: 15px;
+      padding-top:105px;
+    }
+   
+    .title{
+      margin:50px 50px 0px 150px;
+      font-size:15px;
+    }
+    .description{
+      margin:10px 0px 0px 140px;
+      font-size:9px; 
+      line-height:10px;
+    }
+  
+    #fast-logo,
+  #eco-img,
+  #QA {
+   
+    margin-left: 50px;
+  }
+    #email{
+      width:30%;
+    }
+    #video{
+      margin:20px 0px 30px 10px;
+     }
+    #container {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+      height:250px
+  }
+    .scale {
+    height: 80px;
+    width:70px;
+  }
+    
+  .box-btn {
+    width: 70px;
+    font-size: 15px;
+    }
+   .strip{
+     width:80px;
+     }
+    footer {
+    height: 80px;
+    margin: 60px 21px 0px 24px;
+  }
+    #eco{
+      margin-right:70px;
+    }
+    #fast,#qual{
+      margin-left:2px;
+      margin-right:40px;
+    }
+  
+  }
